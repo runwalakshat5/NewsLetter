@@ -30,7 +30,7 @@ app.post("/",function(req,res){
         url:"https://us19.api.mailchimp.com/3.0/lists/183eeb9816",
         method:"POST",
         headers:{
-          "Authorization":"akshat1 6e64ed05ff4ecad736948741a34b9100-us19"
+          "Authorization":"akshat1 apikey"
         },
         body : jsonData
       };
@@ -60,6 +60,6 @@ app.listen(process.env.PORT || 3000,function(){
 });
 
 //API KEY
-//6e64ed05ff4ecad736948741a34b9100-us19
+Write api key there from mailchimp.
 
 //List ID-183eeb9816
